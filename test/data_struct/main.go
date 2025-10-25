@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	datastruct "test/test/data_struct/normal"
+	datastruct "golang_study/test/data_struct/normal"
 )
 
 // 匿名体结构

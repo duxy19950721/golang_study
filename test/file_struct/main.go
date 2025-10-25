@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	_ "test/test/file_struct/pkg1"
 )
 
 var a string = getName()

@@ -2,7 +2,6 @@ package pkg1
 
 import (
 	"fmt"
-	_ "test/test/file_struct/pkg2"
 )
 
 var a string = getName()
