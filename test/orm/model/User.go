@@ -1,11 +1,13 @@
 package model
 
 import (
+	"time"
+
 	"gorm.io/gorm"
 )
 
 type User struct {
-	Model gorm.Model
-	Name  string // A regular string field
-	Age   uint8
+	Model    gorm.Model `gorm:"embedded"`
+	Age      uint8
+	Birthday *time.Time
 }
